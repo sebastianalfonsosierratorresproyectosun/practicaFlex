@@ -1,0 +1,20 @@
+.flexContainer{
+    display: flex;
+    background-color: aqua;
+}
+
+.flexContainer > div{
+
+    width: 50%;
+    border-style: solid;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.flexContainerJustificadoDerecha{
+    display: flex;
+    justify-content: end;
+    padding-right:20px ;
+}
